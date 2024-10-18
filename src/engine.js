@@ -1,10 +1,5 @@
 import readlineSync from 'readline-sync';
 
-/**
- * Запускает заданную игру
- * @param name имя игрока
- * @param game игра
- */
 const start = (name, game) => {
     while(true) {
         const iteration = game.iteration();

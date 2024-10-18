@@ -1,15 +1,5 @@
 import getRandom from './lib/getRandom.js';
 
-/**
- * Игра геометрическая прогрессия
- * @returns {
- *  name - имя игры
- *  rules - правила
- *  iteration - функция генерации игры, возвращает 
- *      question - задание
- *      answer - правильный ответ
- * }
- */
 const progression = {
    name: 'Geometry progression',
    rules: 'What number is missing in the progression?',
